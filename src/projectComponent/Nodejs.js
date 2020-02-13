@@ -25,13 +25,13 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function Web1() {
+export default function Nodejs() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-        <Grid container spacing={2}>
+        <Grid container spacing={3}>
           <Grid item>
             <a href="https://hojin9622.github.io/web1/">
               <ButtonBase className={classes.image}>
@@ -48,13 +48,13 @@ export default function Web1() {
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1">
-                  Web1
+                  Nodejs
                 </Typography>
                 <Typography variant="body2" gutterBottom>
                   생활코딩
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  HTML, CSS, JavaScript
+                  Node
                 </Typography>
               </Grid>
               <Grid item>
