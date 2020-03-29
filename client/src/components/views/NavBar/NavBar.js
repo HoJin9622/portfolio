@@ -27,9 +27,9 @@ function NavBar() {
         <div className="menu_left">
           <LeftMenu mode="horizontal" />
         </div>
-        <div className="menu_rigth">
+        {/*         <div className="menu_rigth">
           <RightMenu mode="horizontal" />
-        </div>
+        </div> */}
         <Button
           className="menu__mobile-button"
           type="primary"
@@ -46,7 +46,7 @@ function NavBar() {
           visible={visible}
         >
           <LeftMenu mode="inline" />
-          <RightMenu mode="inline" />
+          {/*           <RightMenu mode="inline" /> */}
         </Drawer>
       </div>
     </nav>
