@@ -6,7 +6,7 @@ import LandingPage from "./views/LandingPage/LandingPage.js";
 import LoginPage from "./views/LoginPage/LoginPage.js";
 import RegisterPage from "./views/RegisterPage/RegisterPage.js";
 import NavBar from "./views/NavBar/NavBar";
-
+import AboutPage from "./views/AboutPage/AboutPage";
 function App() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
@@ -16,6 +16,7 @@ function App() {
           <Route exact path="/" component={Auth(LandingPage, null)} />
           <Route exact path="/login" component={Auth(LoginPage, false)} />
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
+          <Route exact path="/about" component={Auth(AboutPage, null)} />
         </Switch>
       </div>
     </Suspense>
