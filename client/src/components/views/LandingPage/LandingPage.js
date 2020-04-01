@@ -27,7 +27,7 @@ function LandingPage() {
       <div style={{ fontSize: "2rem" }}>Hello, I'm HoJin Lee.</div>
       <div style={{ fontSize: "2rem" }}>I'm a junior web developer.</div>
       <div>
-        <a className="viewMyWork" href>
+        <a href="/about" className="viewMyWork">
           View my work
         </a>
       </div>

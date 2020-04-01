@@ -8,6 +8,7 @@ import RegisterPage from "./views/RegisterPage/RegisterPage.js";
 import NavBar from "./views/NavBar/NavBar";
 import AboutPage from "./views/AboutPage/AboutPage";
 import TestPage from "./views/TestPage/TestPage";
+import Portfolio from "./views/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
           <Route exact path="/about" component={Auth(AboutPage, null)} />
           <Route exact path="/test" component={Auth(TestPage, null)} />
+          <Route exact path="/portfolio" component={Auth(Portfolio, null)} />
         </Switch>
       </div>
     </Suspense>
