@@ -1,5 +1,5 @@
 import React from "react";
-import { Input } from "antd";
+import { Input, Button } from "antd";
 import "./Contact.css";
 
 const { TextArea } = Input;
@@ -13,7 +13,9 @@ function Contact() {
       <hr />
       <br />
 
-      <div style={{ textAlign: "center", fontWeight: "500" }}>
+      <div
+        style={{ textAlign: "center", fontSize: "1.2rem", fontWeight: "500" }}
+      >
         Have a question or want to work together?
       </div>
       <br />
@@ -32,6 +34,12 @@ function Contact() {
         <TextArea rows={4} placeholder="Your Message" />
       </div>
       <br />
+
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Button type="primary" size="large">
+          Submit
+        </Button>
+      </div>
     </div>
   );
 }
