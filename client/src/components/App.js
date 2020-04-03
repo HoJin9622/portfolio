@@ -9,6 +9,7 @@ import NavBar from "./views/NavBar/NavBar";
 import AboutPage from "./views/AboutPage/AboutPage";
 import TestPage from "./views/TestPage/TestPage";
 import Portfolio from "./views/Portfolio/Portfolio";
+import Contact from "./views/Contact/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/about" component={Auth(AboutPage, null)} />
           <Route exact path="/test" component={Auth(TestPage, null)} />
           <Route exact path="/portfolio" component={Auth(Portfolio, null)} />
+          <Route exact path="/contact" component={Auth(Contact, null)} />
         </Switch>
       </div>
     </Suspense>

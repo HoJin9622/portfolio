@@ -23,7 +23,7 @@ function LeftMenu(props) {
         </MenuItemGroup>
       </SubMenu>
       <Menu.Item key="Contact">
-        <a href="/">Contact</a>
+        <a href="/contact">Contact</a>
       </Menu.Item>
     </Menu>
   );
