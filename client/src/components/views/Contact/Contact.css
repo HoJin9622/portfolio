@@ -1,0 +1,9 @@
+.contact__container {
+  margin: 10rem;
+}
+
+@media (max-width: 767px) {
+  .contact__container {
+    margin: 15px;
+  }
+}
