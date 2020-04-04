@@ -70,4 +70,5 @@
   height: 28px;
   background: url(/images/toggle.png);
   background-size: cover;
+  cursor: pointer;
 }
