@@ -16,7 +16,7 @@ function TestPage() {
       <div className="banner">
         <header>
           <a href="#" className="logo">
-            Brand Name
+            HoJin.com
           </a>
           <div className="toggle"></div>
         </header>
