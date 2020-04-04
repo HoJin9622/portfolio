@@ -3,6 +3,8 @@ import "./Banner.css";
 import "./About.css";
 import "./Services.css";
 import "./Technology.css";
+import "./Common.css";
+import "./Client.css";
 
 function TestPage() {
   return (
@@ -100,6 +102,24 @@ function TestPage() {
         </div>
         <div className="imgBx">
           <img src="/images/tech.png" />
+        </div>
+      </section>
+
+      {/* Client */}
+      <section className="client">
+        <h2 className="heading">Our Client</h2>
+        <p className="text">
+          At Success by Design, we understand how important it is for educators
+          to find the right tools for student success. When it comes to buying
+          materials in bulk, teachers and campus administrators feel the weight
+          of that responsibility twice over. No one wants to spend their limited
+          resources on a product their students are just going to set aside.
+        </p>
+        <div className="imgBx">
+          <img src="/images/brand1.png" />
+          <img src="/images/brand2.png" />
+          <img src="/images/brand3.png" />
+          <img src="/images/brand4.png" />
         </div>
       </section>
 
