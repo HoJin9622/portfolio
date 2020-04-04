@@ -6,6 +6,7 @@ import "./Technology.css";
 import "./Common.css";
 import "./Client.css";
 import "./Testimonials.css";
+import "./Contact.css";
 
 function TestPage() {
   return (
@@ -161,6 +162,39 @@ function TestPage() {
       </section>
 
       {/* Contact */}
+      <section className="contact">
+        <h2 className="heading">Contact us</h2>
+        <p className="text">
+          At Success by Design, we understand how important it is for educators
+          to find the right tools for student success. When it comes to buying
+          materials in bulk, teachers and campus administrators feel the weight
+          of that responsibility twice over. No one wants to spend their limited
+          resources on a product their students are just going to set aside.
+        </p>
+      </section>
+
+      <section className="about">
+        <div className="contentBx redbg">
+          <div className="form">
+            <div className="inputBx">
+              <input type="text" name="" placeholder="Full Name" />
+            </div>
+            <div className="inputBx">
+              <input type="text" name="" placeholder="Email Address" />
+            </div>
+            <div className="inputBx">
+              <input type="text" name="" placeholder="Mobile No." />
+            </div>
+            <div className="inputBx">
+              <textarea placeholder="Write your message here" />
+            </div>
+            <div className="inputBx">
+              <input type="submit" name="" value="Send" />
+            </div>
+          </div>
+        </div>
+        <div className="imgBx2"></div>
+      </section>
 
       {/* Footer */}
     </div>
