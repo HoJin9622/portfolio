@@ -7,6 +7,7 @@ import "./Common.css";
 import "./Client.css";
 import "./Testimonials.css";
 import "./Contact.css";
+import "./Footer.css";
 
 function TestPage() {
   return (
@@ -197,6 +198,27 @@ function TestPage() {
       </section>
 
       {/* Footer */}
+      <section className="footer">
+        <p className="text">Design & Developed By Online Tutorials</p>
+        <ul>
+          <p className="text">Follow us on : </p>
+          <li>
+            <a href="#">
+              <img src="/images/facebook.png" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/images/twitter.png" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/images/linkedin.png" />
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }
