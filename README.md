@@ -25,3 +25,13 @@ cover : 배경을 사용하는 요소를 다 채울 수 있게 이미지를 확�
 https://ko.learnlayout.com/position.html
 
 상대적, 절대적 위치
+
+    height: 100vh;
+
+https://webclub.tistory.com/356
+
+뷰포트의 너비값과 높이값에 맞게 사용 가능.
+
+브라우저 높이값이 900px일때 1vh는 9px이라는 뜻
+
+100vh로 설정하면 브라우저의 높이값과 같아진다.

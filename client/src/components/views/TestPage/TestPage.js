@@ -5,6 +5,7 @@ import "./Services.css";
 import "./Technology.css";
 import "./Common.css";
 import "./Client.css";
+import "./Testimonials.css";
 
 function TestPage() {
   return (
@@ -124,6 +125,40 @@ function TestPage() {
       </section>
 
       {/* Testimonials */}
+      <section className="testimonials">
+        <h2 class="heading">What Our Client says</h2>
+        <div className="container">
+          <div class="contentBx">
+            <div>
+              <p>
+                At Success by Design, we understand how important it is for
+                educators to find the right tools for student success. When it
+                comes to buying materials in bulk, teachers and campus
+                administrators feel the weight of that responsibility twice
+                over. No one wants to spend their limited resources on a product
+                their students are just going to set aside.
+              </p>
+              <br />
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+
+          <div class="contentBx">
+            <div>
+              <p>
+                At Success by Design, we understand how important it is for
+                educators to find the right tools for student success. When it
+                comes to buying materials in bulk, teachers and campus
+                administrators feel the weight of that responsibility twice
+                over. No one wants to spend their limited resources on a product
+                their students are just going to set aside.
+              </p>
+              <br />
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Contact */}
 
