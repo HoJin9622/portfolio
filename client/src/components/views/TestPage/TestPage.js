@@ -2,6 +2,7 @@ import React from "react";
 import "./Banner.css";
 import "./About.css";
 import "./Services.css";
+import "./Technology.css";
 
 function TestPage() {
   return (
@@ -85,12 +86,28 @@ function TestPage() {
       </section>
 
       {/*   Technology */}
+      <section className="technology">
+        <div className="contentBx">
+          <h2 className="heading">We use cutting edge technology</h2>
+          <p className="text">
+            At Success by Design, we understand how important it is for
+            educators to find the right tools for student success. When it comes
+            to buying materials in bulk, teachers and campus administrators feel
+            the weight of that responsibility twice over. No one wants to spend
+            their limited resources on a product their students are just going
+            to set aside.
+          </p>
+        </div>
+        <div className="imgBx">
+          <img src="/images/tech.png" />
+        </div>
+      </section>
 
       {/* Testimonials */}
 
       {/* Contact */}
 
-      {/*       Footer */}
+      {/* Footer */}
     </div>
   );
 }
