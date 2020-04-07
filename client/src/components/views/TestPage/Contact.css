@@ -63,3 +63,9 @@
   cursor: pointer;
   font-weight: 400;
 }
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+}
