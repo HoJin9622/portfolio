@@ -25,6 +25,9 @@ function LeftMenu(props) {
       <Menu.Item key="Contact">
         <a href="/contact">Contact</a>
       </Menu.Item>
+      <Menu.Item key="Test">
+        <a href="/test">Test Page</a>
+      </Menu.Item>
     </Menu>
   );
 }
