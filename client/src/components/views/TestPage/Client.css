@@ -22,3 +22,12 @@
 .client .imgBx img:hover {
   opacity: 1;
 }
+
+@media (max-width: 991px) {
+  .client {
+    padding: 50px;
+  }
+  .client .imgBx {
+    justify-content: center;
+  }
+}
