@@ -20,3 +20,16 @@
 .technology .imgBx img {
   max-width: 100%;
 }
+
+@media (max-width: 991px) {
+  .technology {
+    padding: 50px;
+    padding-top: 300px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .technology .imgBx {
+    margin-top: 40px;
+    max-width: 250px;
+  }
+}
