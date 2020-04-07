@@ -33,3 +33,17 @@
   font-weight: 500;
   color: #3f8ffc;
 }
+
+@media (max-width: 991px) {
+  .testimonials {
+    padding: 50px;
+  }
+  .testimonials .container .contentBx {
+    padding: 60px 40px;
+    max-width: 550px;
+    margin-bottom: 40px;
+  }
+  .testimonials .container .contentBx:last-child {
+    margin-bottom: 0px;
+  }
+}
