@@ -16,3 +16,15 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 991px) {
+  .about {
+    flex-direction: column;
+  }
+  .about .contentBx,
+  .about .imgBx {
+    width: 100%;
+    padding: 50px;
+    min-height: 400px;
+  }
+}
