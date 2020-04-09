@@ -1,16 +1,16 @@
-.about {
+.TestPage1 .about {
   position: relative;
   width: 100%;
   display: flex;
 }
 
-.about .contentBx {
+.TestPage1 .about .contentBx {
   background: #162c3b;
   padding: 100px;
   width: 50%;
 }
 
-.about .imgBx {
+.TestPage1 .about .imgBx {
   background: url(/images/window.jpg);
   width: 50%;
   background-size: cover;
@@ -18,11 +18,11 @@
 }
 
 @media (max-width: 991px) {
-  .about {
+  .TestPage1 .about {
     flex-direction: column;
   }
-  .about .contentBx,
-  .about .imgBx {
+  .TestPage1 .about .contentBx,
+  .TestPage1 .about .imgBx {
     width: 100%;
     padding: 50px;
     min-height: 400px;

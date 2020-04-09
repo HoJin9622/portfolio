@@ -1,10 +1,10 @@
-.services {
+.TestPage1 .services {
   background: #12222d;
   padding: 100px;
   text-align: center;
 }
 
-.services .container {
+.TestPage1 .services .container {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@
   margin-top: 60px;
 }
 
-.services .container .serviceBx {
+.TestPage1 .services .container .serviceBx {
   position: relative;
   background: #fff;
   width: 350px;
@@ -23,25 +23,25 @@
   align-items: center;
 }
 
-.services .container .serviceBx img {
+.TestPage1 .services .container .serviceBx img {
   max-width: 100px;
 }
 
-.services .container .serviceBx h2 {
+.TestPage1 .services .container .serviceBx h2 {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 1px;
 }
 
 @media (max-width: 991px) {
-  .services {
+  .TestPage1 .services {
     padding: 50px;
   }
-  .services .container {
+  .TestPage1 .services .container {
     justify-content: center;
     margin-top: 20px;
   }
-  .services .container .serviceBx {
+  .TestPage1 .services .container .serviceBx {
     margin: 20px;
     width: 300px;
     height: 350px;

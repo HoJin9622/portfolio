@@ -16,9 +16,9 @@ AOS.init({
   duration: 2000,
 });
 
-function TestPage() {
+function TestPage1() {
   return (
-    <div>
+    <div className="TestPage1">
       {/* Banner */}
       <div className="banner">
         <header>
@@ -236,4 +236,4 @@ function TestPage() {
   );
 }
 
-export default TestPage;
+export default TestPage1;

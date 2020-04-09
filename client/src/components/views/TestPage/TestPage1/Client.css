@@ -1,10 +1,10 @@
-.client {
+.TestPage1 .client {
   background: #162c3b;
   padding: 100px;
   text-align: center;
 }
 
-.client .imgBx {
+.TestPage1 .client .imgBx {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,22 +12,22 @@
   margin-top: 40px;
 }
 
-.client .imgBx img {
+.TestPage1 .client .imgBx img {
   max-width: 200px;
   margin: 20px;
   opacity: 0.25;
   cursor: pointer;
 }
 
-.client .imgBx img:hover {
+.TestPage1 .client .imgBx img:hover {
   opacity: 1;
 }
 
 @media (max-width: 991px) {
-  .client {
+  .TestPage1 .client {
     padding: 50px;
   }
-  .client .imgBx {
+  .TestPage1 .client .imgBx {
     justify-content: center;
   }
 }

@@ -1,27 +1,27 @@
-.contact {
+.TestPage1 .contact {
   padding: 100px;
   background: #162c3b;
   text-align: center;
 }
 
-.imgBx2 {
+.TestPage1 .imgBx2 {
   background: url(/images/bg2.jpg);
   background-size: cover;
   background-position: center;
   width: 50%;
 }
 
-.redbg {
+.TestPage1 .redbg {
   background: url(/images/red.jpg) !important;
   background-size: cover;
   background-position: center;
 }
 
-.form .inputBx {
+.TestPage1 .form .inputBx {
   margin-bottom: 40px;
 }
 
-.form .inputBx input {
+.TestPage1 .form .inputBx input {
   width: 100%;
   background: transparent;
   box-shadow: none;
@@ -34,11 +34,11 @@
   border-bottom: 2px solid #fff;
 }
 
-.form .inputBx input::placeholder {
+.TestPage1 .form .inputBx input::placeholder {
   color: #fff;
 }
 
-.form .inputBx textarea {
+.TestPage1 .form .inputBx textarea {
   width: 100%;
   background: transparent;
   box-shadow: none;
@@ -52,11 +52,11 @@
   border-bottom: 2px solid #fff;
 }
 
-.form .inputBx textarea::placeholder {
+.TestPage1 .form .inputBx textarea::placeholder {
   color: #fff;
 }
 
-.form .inputBx input[type="submit"] {
+.TestPage1 .form .inputBx input[type="submit"] {
   width: 150px;
   background: #fff;
   color: #111;
@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 991px) {
-  .contact {
+  .TestPage1 .contact {
     padding: 50px;
   }
 }

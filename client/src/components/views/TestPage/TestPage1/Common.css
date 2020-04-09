@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.heading {
+.TestPage1 .heading {
   color: #fff;
   font-size: 30px;
   font-weight: 600;
@@ -15,7 +15,7 @@
   margin-bottom: 10px;
 }
 
-.text {
+.TestPage1 .text {
   color: #fff;
   font-size: 16px;
   font-weight: 300;

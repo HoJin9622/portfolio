@@ -1,4 +1,4 @@
-.technology {
+.TestPage1 .technology {
   background: #3f8ffc;
   width: 100%;
   padding: 100px;
@@ -9,26 +9,26 @@
   align-items: center;
 }
 
-.technology .contentBx {
+.TestPage1 .technology .contentBx {
   max-width: 800px;
 }
 
-.technology .imgBx {
+.TestPage1 .technology .imgBx {
   max-width: 250px;
 }
 
-.technology .imgBx img {
+.TestPage1 .technology .imgBx img {
   max-width: 100%;
 }
 
 @media (max-width: 991px) {
-  .technology {
+  .TestPage1 .technology {
     padding: 50px;
     padding-top: 300px;
     justify-content: center;
     flex-direction: column;
   }
-  .technology .imgBx {
+  .TestPage1 .technology .imgBx {
     margin-top: 40px;
     max-width: 250px;
   }
