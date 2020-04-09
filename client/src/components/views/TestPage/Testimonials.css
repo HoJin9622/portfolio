@@ -38,6 +38,9 @@
   .testimonials {
     padding: 50px;
   }
+  .testimonials .container {
+    justify-content: center;
+  }
   .testimonials .container .contentBx {
     padding: 60px 40px;
     max-width: 550px;
