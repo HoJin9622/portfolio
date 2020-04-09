@@ -10,6 +10,7 @@ import AboutPage from "./views/AboutPage/AboutPage";
 import TestPage1 from "./views/TestPage/TestPage1/TestPage1";
 import Portfolio from "./views/Portfolio/Portfolio";
 import Contact from "./views/Contact/Contact";
+import TestPage2 from "./views/TestPage/TestPage2/TestPage2";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/test1" component={Auth(TestPage1, null)} />
           <Route exact path="/portfolio" component={Auth(Portfolio, null)} />
           <Route exact path="/contact" component={Auth(Contact, null)} />
+          <Route exact path="/test2" component={Auth(TestPage2, null)} />
         </Switch>
       </div>
     </Suspense>
