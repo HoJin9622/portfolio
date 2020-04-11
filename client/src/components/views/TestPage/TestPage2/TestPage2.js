@@ -1,14 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./TestPage2.css";
 
 function TestPage2() {
   const [openTrailer, setopenTrailer] = useState(false);
 
+  useEffect(() => {
+    const video = document.querySelector("video");
+
+    if (openTrailer) {
+      video.play();
+    } else {
+      video.pause();
+      //video.currentTime = 0;
+    }
+  }, [openTrailer]);
+
   const toggle = () => {
     setopenTrailer(!openTrailer);
-    const video = document.querySelector("video");
-    video.pause();
-    video.currentTime = 0;
   };
 
   return (

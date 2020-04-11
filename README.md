@@ -35,3 +35,9 @@ https://webclub.tistory.com/356
 브라우저 높이값이 900px일때 1vh는 9px이라는 뜻
 
 100vh로 설정하면 브라우저의 높이값과 같아진다.
+
+## useState, useEffect
+
+useState() 함수의 비동기적 처리방식에 대한 해결 방법
+
+https://velog.io/@public_danuel/trendy-react-hooks-basic-1
