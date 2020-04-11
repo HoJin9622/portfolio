@@ -36,6 +36,12 @@ https://webclub.tistory.com/356
 
 100vh로 설정하면 브라우저의 높이값과 같아진다.
 
+    background: rgba(0, 0, 0, 0.85);
+
+https://www.codingfactory.net/10825
+
+background color opacity
+
 ## useState, useEffect
 
 useState() 함수의 비동기적 처리방식에 대한 해결 방법
