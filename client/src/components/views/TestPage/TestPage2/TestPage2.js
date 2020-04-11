@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TestPage2.css";
 
 function TestPage2() {
+  const [openTrailer, setopenTrailer] = useState(false);
+
+  const toggle = () => {
+    setopenTrailer(!openTrailer);
+    const video = document.querySelector("video");
+    video.pause();
+    video.currentTime = 0;
+  };
+
   return (
-    <div>
+    <div className="TestPage2">
       <header>
         <a href="#" className="logo">
           <img src="/images/TestPage2/logo.png" />
@@ -25,11 +34,11 @@ function TestPage2() {
             their limited resources on a product their students are just going
             to set aside.
           </p>
-          <a href="#" className="play">
+          <a href="#" className="play" onClick={toggle}>
             <img src="/images/TestPage2/play.png" /> Watch Trailer
           </a>
           <div className="slide"></div>
-          <ul>
+          <ul className="sci">
             <li>
               <a href="#">
                 <img src="/images/TestPage2/facebook.png" />
@@ -47,6 +56,14 @@ function TestPage2() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className={openTrailer ? "trailer active" : "trailer"}>
+        <video src="/images/TestPage2/trailer.mp4" controls={true} />
+        <img
+          src="/images/TestPage2/close.png"
+          className="close"
+          onClick={toggle}
+        />
       </div>
     </div>
   );
