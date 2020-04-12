@@ -26,6 +26,12 @@ https://ko.learnlayout.com/position.html
 
 상대적, 절대적 위치
 
+position relative는 해당 요소가 원래 있던 자리 기준
+
+position absolute는 부모 요소인 브라우저 기준(스크롤하면 위치 변함)
+
+position fixed는 부모 요소인 브라우저 기준(스크롤해도 위치 불변)
+
     height: 100vh;
 
 https://webclub.tistory.com/356
@@ -41,6 +47,15 @@ https://webclub.tistory.com/356
 https://www.codingfactory.net/10825
 
 background color opacity
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+요소의 중앙 집결
+
+https://www.tabmode.com/homepage/transform-translate.html
 
 ## useState, useEffect
 
