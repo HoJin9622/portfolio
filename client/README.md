@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
 
-## Available Scripts
+index.css import 주석처리 해놈
 
-In the project directory, you can run:
+## css
 
-### `npm start`
+    object-fit: cover;
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://webdir.tistory.com/486
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+내용이 종횡비를 유지하면서 정의된 너비와 높이를 가득 채울때까지 확대된다.
 
-### `npm test`
+    background-size: cover;
+    background-position: center;
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.codingfactory.net/10559
 
-### `npm run build`
+https://www.codingfactory.net/10595
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cover : 배경을 사용하는 요소를 다 채울 수 있게 이미지를 확대 또는 축소합니다. 가로 세로 비율을 유지합니다.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+    position: relative;
+    position: absolute;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://ko.learnlayout.com/position.html
 
-### `npm run eject`
+상대적, 절대적 위치
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+position relative는 해당 요소가 원래 있던 자리 기준
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+position absolute는 부모 요소인 브라우저 기준(스크롤하면 위치 변함)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+position fixed는 부모 요소인 브라우저 기준(스크롤해도 위치 불변)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    height: 100vh;
 
-## Learn More
+https://webclub.tistory.com/356
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+뷰포트의 너비값과 높이값에 맞게 사용 가능.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+브라우저 높이값이 900px일때 1vh는 9px이라는 뜻
 
-### Code Splitting
+100vh로 설정하면 브라우저의 높이값과 같아진다.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    background: rgba(0, 0, 0, 0.85);
 
-### Analyzing the Bundle Size
+https://www.codingfactory.net/10825
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+background color opacity
 
-### Making a Progressive Web App
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+요소의 중앙 집결
 
-### Advanced Configuration
+https://www.tabmode.com/homepage/transform-translate.html
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## useState, useEffect
 
-### Deployment
+useState() 함수의 비동기적 처리방식에 대한 해결 방법
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://velog.io/@public_danuel/trendy-react-hooks-basic-1
