@@ -22,11 +22,11 @@ function TestPage2() {
   return (
     <div className="TestPage2">
       <header>
-        <a href="#" className="logo">
-          <img src="/images/TestPage2/logo.png" />
+        <a href="/" className="logo">
+          <img src="/images/TestPage2/logo.png" alt="logo" />
         </a>
         <div className="toggle">
-          <img src="/images/TestPage2/toggle.png" />
+          <img src="/images/TestPage2/toggle.png" alt="toggle" />
         </div>
       </header>
       <div className="banner">
@@ -42,24 +42,24 @@ function TestPage2() {
             their limited resources on a product their students are just going
             to set aside.
           </p>
-          <a href="#" className="play" onClick={toggle}>
-            <img src="/images/TestPage2/play.png" /> Watch Trailer
-          </a>
+          <div className="play" onClick={toggle}>
+            <img src="/images/TestPage2/play.png" alt="play" /> Watch Trailer
+          </div>
           <div className="slide"></div>
           <ul className="sci">
             <li>
-              <a href="#">
-                <img src="/images/TestPage2/facebook.png" />
+              <a href="https://facebook.com">
+                <img src="/images/TestPage2/facebook.png" alt="facebook" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src="/images/TestPage2/twitter.png" />
+              <a href="https://twitter.com">
+                <img src="/images/TestPage2/twitter.png" alt="twitter" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src="/images/TestPage2/instagram.png" />
+              <a href="https://instagram.com">
+                <img src="/images/TestPage2/instagram.png" alt="instagram" />
               </a>
             </li>
           </ul>
@@ -71,6 +71,7 @@ function TestPage2() {
           src="/images/TestPage2/close.png"
           className="close"
           onClick={toggle}
+          alt="close button"
         />
       </div>
     </div>

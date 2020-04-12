@@ -22,12 +22,12 @@ function TestPage1() {
       {/* Banner */}
       <div className="banner">
         <header>
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             HoJin.com
           </a>
           <div className="toggle"></div>
         </header>
-        <img src="/images/bg.jpg" />
+        <img src="/images/bg.jpg" alt="background" />
         <div data-aos="fade-in" className="content">
           <h2>Sucess by Design</h2>
           <p>
@@ -76,27 +76,27 @@ function TestPage1() {
           materials in bulk, teachers and campus administrators feel the weight
           of that responsibility twice over. No one wants to spend their limited
           resources on a product their students are just going to set aside.
-          <div className="container">
-            <div data-aos="fade-right" className="serviceBx">
-              <div>
-                <img src="/images/icon1.png" />
-                <h2>Design</h2>
-              </div>
-            </div>
-            <div data-aos="fade-up" className="serviceBx">
-              <div>
-                <img src="/images/icon2.png" />
-                <h2>Development</h2>
-              </div>
-            </div>
-            <div data-aos="fade-left" className="serviceBx">
-              <div>
-                <img src="/images/icon3.png" />
-                <h2>Branding</h2>
-              </div>
+        </p>
+        <div className="container">
+          <div data-aos="fade-right" className="serviceBx">
+            <div>
+              <img src="/images/icon1.png" alt="Design icon" />
+              <h2>Design</h2>
             </div>
           </div>
-        </p>
+          <div data-aos="fade-up" className="serviceBx">
+            <div>
+              <img src="/images/icon2.png" alt="Development icon" />
+              <h2>Development</h2>
+            </div>
+          </div>
+          <div data-aos="fade-left" className="serviceBx">
+            <div>
+              <img src="/images/icon3.png" alt="Brand icon" />
+              <h2>Branding</h2>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/*   Technology */}
@@ -113,7 +113,7 @@ function TestPage1() {
           </p>
         </div>
         <div data-aos="fade-left" className="imgBx">
-          <img src="/images/tech.png" />
+          <img src="/images/tech.png" alt="technology" />
         </div>
       </section>
 
@@ -130,20 +130,20 @@ function TestPage1() {
           resources on a product their students are just going to set aside.
         </p>
         <div data-aos="zoom-in" className="imgBx">
-          <img src="/images/brand1.png" />
-          <img src="/images/brand2.png" />
-          <img src="/images/brand3.png" />
-          <img src="/images/brand4.png" />
+          <img src="/images/brand1.png" alt="google" />
+          <img src="/images/brand2.png" alt="amazon" />
+          <img src="/images/brand3.png" alt="twitter" />
+          <img src="/images/brand4.png" alt="facebook" />
         </div>
       </section>
 
       {/* Testimonials */}
       <section className="testimonials">
-        <h2 data-aos="flip-left" class="heading">
+        <h2 data-aos="flip-left" className="heading">
           What Our Client says
         </h2>
         <div className="container">
-          <div data-aos="flip-left" class="contentBx">
+          <div data-aos="flip-left" className="contentBx">
             <div>
               <p>
                 At Success by Design, we understand how important it is for
@@ -158,7 +158,7 @@ function TestPage1() {
             </div>
           </div>
 
-          <div data-aos="flip-left" class="contentBx">
+          <div data-aos="flip-left" className="contentBx">
             <div>
               <p>
                 At Success by Design, we understand how important it is for
@@ -216,18 +216,18 @@ function TestPage1() {
         <ul>
           <p className="text">Follow us on : </p>
           <li>
-            <a href="#">
-              <img src="/images/facebook.png" />
+            <a href="https://www.facebook.com">
+              <img src="/images/facebook.png" alt="facebook" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="/images/twitter.png" />
+            <a href="https://www.twitter.com">
+              <img src="/images/twitter.png" alt="twitter" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="/images/linkedin.png" />
+            <a href="https://linkedin.com">
+              <img src="/images/linkedin.png" alt="linkedin" />
             </a>
           </li>
         </ul>

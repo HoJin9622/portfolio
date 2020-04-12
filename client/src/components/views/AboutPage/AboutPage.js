@@ -11,21 +11,19 @@ function AboutPage() {
           width: "5%",
           height: "0.2rem",
           background: "black",
-          marginTop: "0"
+          marginTop: "0",
         }}
       />
       <br />
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div>
-          <div>
-            <img />
-          </div>
+          <div>{/*             <img /> */}</div>
           <div style={{ textAlign: "center" }}>Who's this guy?</div>
           <div>I'm Junior Web Developer for DEU in Busan</div>
         </div>
 
         <div>
-          <img />
+          {/*           <img /> */}
           Language
         </div>
       </div>
