@@ -8,12 +8,23 @@ import TestPage1 from "./views/TestPage/TestPage1/TestPage1";
 import Portfolio from "./views/Portfolio/Portfolio";
 import Contact from "./views/Contact/Contact";
 import TestPage2 from "./views/TestPage/TestPage2/TestPage2";
+import { createGlobalStyle } from "styled-components";
 
 function App() {
+  const GlobalStyle = createGlobalStyle`
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+  `;
+
   const currentURL = window.location.pathname;
   if (currentURL.includes("test")) {
     return (
       <Suspense fallback={<div>Loading...</div>}>
+        <GlobalStyle />
         <div>
           <Switch>
             <Route exact path="/" component={LandingPage} />

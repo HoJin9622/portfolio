@@ -29,15 +29,27 @@ function TestPage2() {
     align-items: center;
     padding: 40px 100px;
     z-index: 1000;
+
+    @media (max-width: 991px) {
+      padding: 20px 50px;
+    }
   `;
 
   const LogoContainer = styled.a`
     max-width: 120px;
+
+    @media (max-width: 991px) {
+      max-width: 80px;
+    }
   `;
 
   const ToggleContainer = styled.div`
     max-width: 60px;
     cursor: pointer;
+
+    @media (max-width: 991px) {
+      max-width: 40px;
+    }
   `;
 
   const Banner = styled.div`
@@ -51,6 +63,10 @@ function TestPage2() {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    @media (max-width: 991px) {
+      padding: 100px 50px;
+    }
   `;
 
   const Content = styled.div`
@@ -63,6 +79,11 @@ function TestPage2() {
     font-size: 2.5em;
     letter-spacing: 0.1em;
     color: #fff;
+
+    @media (max-width: 991px) {
+      font-size: 2em;
+      letter-spacing: 0.05em;
+    }
   `;
 
   const Text = styled.p`
@@ -72,6 +93,10 @@ function TestPage2() {
     line-height: 1.5em;
     color: #fff;
     margin: 15px 0 35px;
+
+    @media (max-width: 991px) {
+      font-size: 1em;
+    }
   `;
 
   const PlayContainer = styled.div`
@@ -97,10 +122,21 @@ function TestPage2() {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 991px) {
+      top: initial;
+      right: initial;
+      margin-top: 40px;
+      flex-direction: row;
+    }
   `;
 
   const List = styled.li`
     list-style: none;
+
+    @media (max-width: 991px) {
+      margin: 0 5px;
+    }
   `;
 
   const SNSLink = styled.a`
@@ -132,6 +168,13 @@ function TestPage2() {
     background-size: cover;
     cursor: pointer;
     animation: ${slide} 25s linear infinite;
+
+    @media (max-width: 991px) {
+      position: relative;
+      bottom: initial;
+      left: 0;
+      margin: 20px 0;
+    }
   `;
 
   const Trailer = styled.div`
@@ -157,6 +200,15 @@ function TestPage2() {
     cursor: pointer;
     filter: invert(1);
     max-width: 32px;
+  `;
+
+  const Video = styled.video`
+    max-width: "900px";
+    outline: "none";
+
+    @media (max-width: 991px) {
+      max-width: 90%;
+    }
   `;
 
   return (
@@ -222,11 +274,7 @@ function TestPage2() {
         </Content>
       </Banner>
       <Trailer isOpen={openTrailer}>
-        <video
-          style={{ maxWidth: "900px", outline: "none" }}
-          src="/images/TestPage2/trailer.mp4"
-          controls={true}
-        />
+        <Video src="/images/TestPage2/trailer.mp4" controls={true} />
         <CloseButton
           src="/images/TestPage2/close.png"
           onClick={toggle}
