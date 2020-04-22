@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 20px 1000px 20px 200px;
+  padding: 20px 1000px 20px 400px;
   background: #2c3e50;
   color: #fff;
   font-weight: 500;
