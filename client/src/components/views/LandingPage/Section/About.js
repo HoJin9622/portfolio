@@ -4,17 +4,17 @@ import styled from "styled-components";
 const TitleContainer = styled.div`
   display: flex;
   font-size: 36px;
-  margin-top: 50px;
+  padding-top: 50px;
   font-weight: 700;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 80px;
 `;
 
 const AbilityContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
   padding: 0 400px;
 `;
 
@@ -28,6 +28,7 @@ const ProfileContainer = styled.div`
   justify-content: space-between;
   padding: 0 400px;
   margin-top: 40px;
+  padding-bottom: 50px;
 `;
 
 const Profile = styled.div`
