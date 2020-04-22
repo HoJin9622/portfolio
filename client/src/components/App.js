@@ -43,8 +43,9 @@ function App() {
     return (
       <Suspense fallback={<div>Loading...</div>}>
         <GlobalStyle />
-        <NavBar />
-        <div style={{ paddingTop: "69px", minHeight: "calc(100vh - 80px)" }}>
+        {/*         <NavBar /> */}
+        <div /* style={{ paddingTop: "69px", minHeight: "calc(100vh - 80px)" }} */
+        >
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route exact path="/about" component={AboutPage} />
