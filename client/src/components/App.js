@@ -20,7 +20,20 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense
+      fallback={
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
+        >
+          Loading...
+        </div>
+      }
+    >
       <GlobalStyle />
       <div>
         <Switch>
