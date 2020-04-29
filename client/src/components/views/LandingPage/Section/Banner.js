@@ -58,6 +58,7 @@ function Banner() {
             <br />
             I'm junior web developer.
           </h1>
+          <br />
           <Button>View my work</Button>
         </Section>
       </Container>
