@@ -73,7 +73,7 @@ const Percentage = styled.div`
 function About() {
   return (
     <>
-      <TitleContainer>
+      <TitleContainer id="about">
         About
         <br />
         <hr style={{ width: "300px", height: "5px", background: "black" }} />

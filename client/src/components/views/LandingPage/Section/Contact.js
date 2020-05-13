@@ -72,7 +72,7 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <Container>
+      <Container id="contact">
         <TitleContainer>
           Contact
           <br />

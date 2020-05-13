@@ -32,7 +32,7 @@ const Font = styled.div`
 function Portfolio() {
   return (
     <>
-      <Container>
+      <Container id="portfolio">
         <TitleContainer>
           Projects
           <br />

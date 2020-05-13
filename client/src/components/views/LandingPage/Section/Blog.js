@@ -18,7 +18,7 @@ const TitleContainer = styled.div`
 
 function Blog() {
   return (
-    <Container>
+    <Container id="blog">
       <TitleContainer>
         Blog
         <br />

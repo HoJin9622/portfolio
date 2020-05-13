@@ -33,7 +33,7 @@ function Banner() {
   return (
     <>
       {/* Banner */}
-      <Container>
+      <Container id="top">
         <img
           src="/images/LandingPage/banner.jpg"
           alt="macbook"
