@@ -10,7 +10,7 @@ function LandingPage() {
   return (
     <>
       <Banner />
-      <Navigation />
+      <Navigation id="navi" />
       <About />
       <Portfolio />
       <Blog />

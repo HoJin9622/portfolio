@@ -59,7 +59,9 @@ function Banner() {
             I'm junior web developer.
           </h1>
           <br />
-          <Button>View my work</Button>
+          <a href="#navi" style={{ textDecoration: "none" }}>
+            <Button>View my work</Button>
+          </a>
         </Section>
       </Container>
     </>

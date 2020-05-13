@@ -13,7 +13,7 @@ const Container = styled.div`
 function Navigation() {
   return (
     <>
-      <Container>
+      <Container id="navi">
         <div>Home</div>
         <div>About</div>
         <div>Portfolio</div>
