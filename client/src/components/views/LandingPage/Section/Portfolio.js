@@ -34,7 +34,7 @@ function Portfolio() {
     <>
       <Container>
         <TitleContainer>
-          Portfolio
+          Projects
           <br />
           <hr style={{ width: "300px", height: "5px", background: "black" }} />
         </TitleContainer>
@@ -44,6 +44,37 @@ function Portfolio() {
           <Font>React-Natvie</Font>
           <Font>JavaScript</Font>
         </LanguageContainer>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(4, 1fr)",
+              gridAutoRows: "200px",
+              marginTop: "30px",
+            }}
+          >
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+            <div style={{ width: "150px", height: "150px" }}>item</div>
+          </div>
+        </div>
       </Container>
     </>
   );

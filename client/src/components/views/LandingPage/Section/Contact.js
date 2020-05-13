@@ -2,6 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 function Contact() {
+  const Container = styled.div`
+    background: #ecf0f1;
+  `;
+
   const TitleContainer = styled.div`
     display: flex;
     font-size: 36px;
@@ -68,18 +72,20 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <TitleContainer>
-        Contact
-        <br />
-        <hr style={{ width: "300px", height: "5px", background: "black" }} />
-      </TitleContainer>
-      <Form class="contact-form" action mthod>
-        <Input type="text" placeholder="Your name" />
-        <Input type="email" placeholder="Your email" />
-        <Input type="text" placeholder="Your phone" />
-        <Textarea placeholder="Your message"></Textarea>
-        <Button type="submit" value="Send" />
-      </Form>
+      <Container>
+        <TitleContainer>
+          Contact
+          <br />
+          <hr style={{ width: "300px", height: "5px", background: "black" }} />
+        </TitleContainer>
+        <Form class="contact-form" action mthod>
+          <Input type="text" placeholder="Your name" />
+          <Input type="email" placeholder="Your email" />
+          <Input type="text" placeholder="Your phone" />
+          <Textarea placeholder="Your message"></Textarea>
+          <Button type="submit" value="Send" />
+        </Form>
+      </Container>
     </React.Fragment>
   );
 }

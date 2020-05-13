@@ -19,6 +19,9 @@ function Navigation() {
         <div>Portfolio</div>
         <div>Contact</div>
       </Container>
+      <div
+        style={{ backgroundColor: "#00cec9", width: "100%", height: "5px" }}
+      />
     </>
   );
 }

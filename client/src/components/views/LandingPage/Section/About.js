@@ -39,6 +39,35 @@ const Profile = styled.div`
   text-align: center;
   font-weight: 600;
   font-size: 18px;
+  width: 550px;
+`;
+
+const ProgressContainer = styled.div`
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const ProgressBar = styled.div`
+  height: 30px;
+  width: 450px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+`;
+
+const Percentage = styled.div`
+  background: linear-gradient(to left, #00cec9, #81ecec);
+  box-shadow: 0 3px 3px -5px #00cec9, 0 2px 5px #81ecec;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  height: 100%;
+  width: ${(props) => props.width}%;
+  transition: 1s ease;
 `;
 
 function About() {
@@ -49,6 +78,7 @@ function About() {
         <br />
         <hr style={{ width: "300px", height: "5px", background: "black" }} />
       </TitleContainer>
+
       <AbilityContainer>
         <Image src="/images/LandingPage/html.png" alt="html" />
         <Image src="/images/LandingPage/css.png" alt="css" />
@@ -59,20 +89,42 @@ function About() {
           <img
             src="/images/LandingPage/profile.jpg"
             alt="my profile"
-            style={{ width: "250px" }}
+            style={{ width: "250px", borderRadius: "30px" }}
           />
           <br />
           안녕하세요.
           <br />
-          저는 주니어 웹 개발자입니다.
-          <br />
-          현재 동의대학교 재학중이고, 웹 개발에 관심이 많습니다.
+          이호진입니다.
         </Profile>
 
-        <div>
-          {/* Stack */}
-          <img src="/images/LandingPage/progress.png" alt="progress" />
-        </div>
+        <ProgressContainer>
+          <ul>
+            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+              HTML
+              <ProgressBar>
+                <Percentage width="80">80%</Percentage>
+              </ProgressBar>
+            </li>
+            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+              React
+              <ProgressBar>
+                <Percentage width="60">60%</Percentage>
+              </ProgressBar>
+            </li>
+            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+              CSS
+              <ProgressBar>
+                <Percentage width="50">50%</Percentage>
+              </ProgressBar>
+            </li>
+            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+              JavaScript
+              <ProgressBar>
+                <Percentage width="30">30%</Percentage>
+              </ProgressBar>
+            </li>
+          </ul>
+        </ProgressContainer>
       </ProfileContainer>
     </>
   );

@@ -4,6 +4,7 @@ import Navigation from "./Section/Navigation";
 import About from "./Section/About";
 import Portfolio from "./Section/Portfolio";
 import Contact from "./Section/Contact";
+import Blog from "./Section/Blog";
 
 function LandingPage() {
   return (
@@ -12,6 +13,7 @@ function LandingPage() {
       <Navigation />
       <About />
       <Portfolio />
+      <Blog />
       <Contact />
     </>
   );
