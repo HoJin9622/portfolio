@@ -9,7 +9,7 @@ function Contact() {
   const TitleContainer = styled.div`
     display: flex;
     font-size: 36px;
-    padding-top: 50px;
+    padding-top: 116px;
     font-weight: 700;
     justify-content: center;
     align-items: center;
