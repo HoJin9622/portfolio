@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
+  position: sticky;
+  top: 0;
+`;
+
+const Menu = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 20px 1000px 20px 400px;
@@ -20,25 +25,30 @@ function Navigation() {
   return (
     <>
       <Container id="navi">
-        <a href="#top" style={{ textDecoration: "none", color: "#fff" }}>
-          <Section>Home</Section>
-        </a>
-        <a href="#about" style={{ textDecoration: "none", color: "#fff" }}>
-          <Section>About</Section>
-        </a>
-        <a href="#portfolio" style={{ textDecoration: "none", color: "#fff" }}>
-          <Section>Portfolio</Section>
-        </a>
-        <a href="#blog" style={{ textDecoration: "none", color: "#fff" }}>
-          <Section>Blog</Section>
-        </a>
-        <a href="#contact" style={{ textDecoration: "none", color: "#fff" }}>
-          <Section>Contact</Section>
-        </a>
+        <Menu>
+          <a href="#top" style={{ textDecoration: "none", color: "#fff" }}>
+            <Section>Home</Section>
+          </a>
+          <a href="#about" style={{ textDecoration: "none", color: "#fff" }}>
+            <Section>About</Section>
+          </a>
+          <a
+            href="#portfolio"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            <Section>Portfolio</Section>
+          </a>
+          <a href="#blog" style={{ textDecoration: "none", color: "#fff" }}>
+            <Section>Blog</Section>
+          </a>
+          <a href="#contact" style={{ textDecoration: "none", color: "#fff" }}>
+            <Section>Contact</Section>
+          </a>
+        </Menu>
+        <div
+          style={{ backgroundColor: "#00cec9", width: "100%", height: "5px" }}
+        />
       </Container>
-      <div
-        style={{ backgroundColor: "#00cec9", width: "100%", height: "5px" }}
-      />
     </>
   );
 }
