@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const TitleContainer = styled.div`
   display: flex;
@@ -73,23 +73,23 @@ const Percentage = styled.div`
 function About() {
   return (
     <>
-      <TitleContainer id="about">
+      <TitleContainer id='about'>
         About
         <br />
-        <hr style={{ width: "300px", height: "5px", background: "black" }} />
+        <hr style={{ width: '300px', height: '5px', background: 'black' }} />
       </TitleContainer>
 
       <AbilityContainer>
-        <Image src="/images/LandingPage/html.png" alt="html" />
-        <Image src="/images/LandingPage/css.png" alt="css" />
-        <Image src="/images/LandingPage/js.png" alt="js" />
+        <Image src='/images/LandingPage/html.png' alt='html' />
+        <Image src='/images/LandingPage/css.png' alt='css' />
+        <Image src='/images/LandingPage/js.png' alt='js' />
       </AbilityContainer>
       <ProfileContainer>
         <Profile>
           <img
-            src="/images/LandingPage/profile.jpg"
-            alt="my profile"
-            style={{ width: "250px", borderRadius: "30px" }}
+            src='/images/LandingPage/profile.jpg'
+            alt='my profile'
+            style={{ width: '250px', borderRadius: '30px' }}
           />
           <br />
           안녕하세요.
@@ -99,28 +99,28 @@ function About() {
 
         <ProgressContainer>
           <ul>
-            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+            <li style={{ listStyle: 'none', marginBottom: '20px' }}>
               HTML
               <ProgressBar>
-                <Percentage width="80">80%</Percentage>
+                <Percentage width='80'>80%</Percentage>
               </ProgressBar>
             </li>
-            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+            <li style={{ listStyle: 'none', marginBottom: '20px' }}>
               React
               <ProgressBar>
-                <Percentage width="60">60%</Percentage>
+                <Percentage width='60'>60%</Percentage>
               </ProgressBar>
             </li>
-            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+            <li style={{ listStyle: 'none', marginBottom: '20px' }}>
               CSS
               <ProgressBar>
-                <Percentage width="50">50%</Percentage>
+                <Percentage width='50'>50%</Percentage>
               </ProgressBar>
             </li>
-            <li style={{ listStyle: "none", marginBottom: "20px" }}>
+            <li style={{ listStyle: 'none', marginBottom: '20px' }}>
               JavaScript
               <ProgressBar>
-                <Percentage width="30">30%</Percentage>
+                <Percentage width='50'>50%</Percentage>
               </ProgressBar>
             </li>
           </ul>
